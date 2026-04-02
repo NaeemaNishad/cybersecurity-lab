@@ -82,10 +82,3 @@ Maps private IPs to a public IP.
 - Adds security by hiding internal IPs  
 
 ---
-
-### Networking Commands
-
-- `ip a` → show IP address  
-- `ping <ip>` → test connectivity  
-- `netstat -tuln` → show open ports  
-- `traceroute <ip>` → trace route  
