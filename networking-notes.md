@@ -1,31 +1,34 @@
 # Networking Notes
-##Cybersecurity Basics
-##CIA Triad
+
+## Cybersecurity Basics
+
+### CIA Triad
 The CIA Triad is the foundation of cybersecurity:
-- Confidentiality: Ensures that sensitive data is accessed only by authorized users. (Example: passwords, encryption) 
-- Integrity: Ensures that data is accurate and not altered by unauthorized users. 
-- Availability: Ensures that systems and data are accessible when needed.
+- **Confidentiality**: Ensures that sensitive data is accessed only by authorized users (e.g., passwords, encryption)  
+- **Integrity**: Ensures that data is accurate and not altered by unauthorized users  
+- **Availability**: Ensures that systems and data are accessible when needed  
 
-Types of Cyber Threats:
--	Phishing: A social engineering attack where users are tricked into revealing sensitive information through fake emails or websites. 
--	Malware: Malicious software designed to harm systems (e.g., viruses, worms, trojans). 
--	DDoS (Distributed Denial of Service): Overloads a server with traffic to make it unavailable. 
--	SQL Injection: Attacker injects malicious SQL queries to access or manipulate database data. 
--	Brute Force Attack: Trying multiple password combinations until the correct one is found. 
--	Ransomware: Malware that locks or encrypts data and demands payment to restore access.
+### Types of Cyber Threats
+- **Phishing**: Tricks users into revealing sensitive information  
+- **Malware**: Harmful software like viruses, worms, trojans  
+- **DDoS**: Overloads a server to make it unavailable  
+- **SQL Injection**: Injecting malicious queries into databases  
+- **Brute Force Attack**: Trying multiple passwords to gain access  
+- **Ransomware**: Locks data and demands payment  
 
-##Attack Vectors
--	Social Engineering: Manipulating people into revealing confidential information. 
--	Wireless Attacks: Exploiting insecure Wi-Fi networks. 
--	Insider Threats: Threats from employees or trusted individuals misusing access.
+### Attack Vectors
+- **Social Engineering**: Manipulating users for information  
+- **Wireless Attacks**: Exploiting insecure Wi-Fi  
+- **Insider Threats**: Misuse of access by trusted individuals  
 
-----
+---
 
-##Networking Basics
-## OSI Model
+## Networking Basics
+
+### OSI Model
 The OSI Model explains how systems communicate over a network.
 
-Layers:
+**Layers:**
 1. Physical - Transmits raw bits  
 2. Data Link - Error-free transfer  
 3. Network - Routing using IP  
@@ -34,62 +37,67 @@ Layers:
 6. Presentation - Data formatting & encryption  
 7. Application - User-level services  
 
-## TCP/IP Protocol Suite
+---
 
-TCP (Transmission Control Protocol):
-Reliable and connection-oriented communication.
+### TCP/IP Protocol Suite
 
-UDP (User Datagram Protocol):
-Fast and connectionless communication.
+- **TCP (Transmission Control Protocol)**: Reliable and connection-oriented communication  
+- **UDP (User Datagram Protocol)**: Fast and connectionless communication  
 
-## DNS (Domain Name System)
+---
+
+### DNS (Domain Name System)
 Converts domain names (like google.com) into IP addresses.
 
-## HTTP vs HTTPS
+---
 
-HTTP (HyperText Transfer Protocol):
-Transfers data in plain text (not secure)
+### HTTP vs HTTPS
 
-HTTPS (HyperText Transfer Protocol Secure):
-Uses SSL/TLS encryption to secure communication
+- **HTTP**: Transfers data in plain text (not secure)  
+- **HTTPS**: Uses SSL/TLS encryption to secure communication  
 
-## IP Addressing
+---
+
+### IP Addressing
 
 An IP address uniquely identifies a device on a network.
 
-Types:
+**Types:**
 - IPv4 (e.g., 192.168.1.1)  
 - IPv6  
 
-Also:
+**Categories:**
 - Private IP (local network)  
 - Public IP (internet)  
 
-## Subnetting
+---
+
+### Subnetting
 
 Divides a network into smaller subnets.
 
-Benefits:
+**Benefits:**
 - Better performance  
 - Improved security  
 - Efficient traffic management  
 
 Uses subnet mask (e.g., 255.255.255.0)
 
-## NAT (Network Address Translation)
+---
+
+### NAT (Network Address Translation)
 
 Maps private IPs to a public IP.
 
-Benefits:
+**Benefits:**
 - Saves IP addresses  
 - Adds security by hiding internal IPs  
 
-## Networking Commands
+---
 
-ip a - show IP address  
+### Networking Commands
 
-ping <ip> - test connectivity  
-
-netstat -tuln - show open ports  
-
-traceroute <ip> - trace route  
+- `ip a` → show IP address  
+- `ping <ip>` → test connectivity  
+- `netstat -tuln` → show open ports  
+- `traceroute <ip>` → trace route  
