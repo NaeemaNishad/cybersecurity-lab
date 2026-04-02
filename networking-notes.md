@@ -37,26 +37,18 @@ The OSI Model explains how systems communicate over a network.
 6. Presentation - Data formatting & encryption  
 7. Application - User-level services  
 
----
-
 ### TCP/IP Protocol Suite
 
 - **TCP (Transmission Control Protocol)**: Reliable and connection-oriented communication  
 - **UDP (User Datagram Protocol)**: Fast and connectionless communication  
 
----
-
 ### DNS (Domain Name System)
 Converts domain names (like google.com) into IP addresses.
-
----
 
 ### HTTP vs HTTPS
 
 - **HTTP**: Transfers data in plain text (not secure)  
 - **HTTPS**: Uses SSL/TLS encryption to secure communication  
-
----
 
 ### IP Addressing
 
@@ -70,8 +62,6 @@ An IP address uniquely identifies a device on a network.
 - Private IP (local network)  
 - Public IP (internet)  
 
----
-
 ### Subnetting
 
 Divides a network into smaller subnets.
@@ -82,8 +72,6 @@ Divides a network into smaller subnets.
 - Efficient traffic management  
 
 Uses subnet mask (e.g., 255.255.255.0)
-
----
 
 ### NAT (Network Address Translation)
 
