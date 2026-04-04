@@ -77,5 +77,3 @@ Established connection between machines.
 ![Netcat](screenshots/netcat_connection.png)
 
 ---
-
-## 📁 Project Structure
